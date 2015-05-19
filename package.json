@@ -15,6 +15,14 @@
   "bugs": {
     "url": "https://github.com/pwmckenna/react-validator-prop-types/issues"
   },
+  "keywords": [
+    "react-component",
+    "react-native",
+    "prop-types",
+    "proptypes",
+    "validator",
+    "react"
+  ],
   "homepage": "https://github.com/pwmckenna/react-validator-prop-types#readme",
   "jest": {
     "scriptPreprocessor": "<rootDir>/preprocessor.js",
