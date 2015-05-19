@@ -1,0 +1,36 @@
+{
+  "name": "react-validator-prop-types",
+  "version": "1.0.0",
+  "description": "",
+  "main": "PropTypes.js",
+  "scripts": {
+    "test": "NODE_ENV=development jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pwmckenna/react-validator-prop-types.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pwmckenna/react-validator-prop-types/issues"
+  },
+  "homepage": "https://github.com/pwmckenna/react-validator-prop-types#readme",
+  "jest": {
+    "scriptPreprocessor": "<rootDir>/preprocessor.js",
+    "unmockedModulePathPatterns": [
+      "<rootDir>/node_modules/react"
+    ]
+  },
+  "devDependencies": {
+    "jest-cli": "^0.4.5",
+    "lodash": "^3.8.0",
+    "react": "^0.13.3",
+    "react-tools": "^0.13.3"
+  },
+  "dependencies": {
+    "babel-jest": "^5.2.0",
+    "invariant": "^2.0.0",
+    "validator": "^3.39.0"
+  }
+}
