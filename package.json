@@ -23,14 +23,13 @@
     ]
   },
   "devDependencies": {
+    "babel-jest": "^5.2.0",
     "jest-cli": "^0.4.5",
     "lodash": "^3.8.0",
     "react": "^0.13.3",
     "react-tools": "^0.13.3"
   },
   "dependencies": {
-    "babel-jest": "^5.2.0",
-    "invariant": "^2.0.0",
     "validator": "^3.39.0"
   }
 }
