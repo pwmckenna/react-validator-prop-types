@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/pwmckenna/react-validator-prop-types.git"
   },
-  "author": "",
+  "author": "Patrick Williams <pwmckenna@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/pwmckenna/react-validator-prop-types/issues"
@@ -31,5 +31,9 @@
   },
   "dependencies": {
     "validator": "^3.39.0"
-  }
+  },
+  "files": [
+    "ValidatorPropTypes.js",
+    "README.md"
+  ]
 }
