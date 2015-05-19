@@ -2,7 +2,7 @@
   "name": "react-validator-prop-types",
   "version": "1.0.0",
   "description": "",
-  "main": "PropTypes.js",
+  "main": "ValidatorPropTypes.js",
   "scripts": {
     "test": "NODE_ENV=development jest"
   },
