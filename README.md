@@ -10,8 +10,9 @@ Great validation libraries already exist, but the default set of React PropTypes
 var ValidatorPropTypes = require('react-validator-prop-types');
 React.createClass({
   propTypes: {
-    emailAddress: ValidatorPropTypes.email.isRequired,
-    username: ValidatorPropTypes.lowercase
+    background: ValidatorPropTypes.hexColor,
+    email: ValidatorPropTypes.email.isRequired,
+    username: ValidatorPropTypes.lowercase.isRequired,
   }
   ...
 });
