@@ -4,7 +4,7 @@
   "description": "",
   "main": "lib/ValidatorPropTypes",
   "scripts": {
-    "test": "NODE_ENV=development jest",
+    "test": "mocha",
     "prepublish": "npm run compile",
     "compile": "babel -d lib/ src/"
   },
@@ -26,25 +26,12 @@
     "react"
   ],
   "homepage": "https://github.com/pwmckenna/react-validator-prop-types#readme",
-  "jest": {
-    "scriptPreprocessor": "<rootDir>/preprocessor.js",
-    "unmockedModulePathPatterns": [
-      "<rootDir>/node_modules/react"
-    ]
-  },
   "devDependencies": {
     "babel": "^5.8.23",
-    "babel-jest": "^5.2.0",
-    "jest-cli": "^0.4.5",
     "lodash": "^3.8.0",
-    "react": "^0.13.3",
-    "react-tools": "^0.13.3"
+    "react": "^0.13.3"
   },
   "dependencies": {
     "validator": "^3.39.0"
-  },
-  "files": [
-    "ValidatorPropTypes.js",
-    "README.md"
-  ]
+  }
 }
