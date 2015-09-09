@@ -5,13 +5,13 @@ var validator = require('validator');
 var checkType = function (fn, isRequired, props, propName, componentName) {
     if (props[propName] == null) {
         if (isRequired) {
-            throw new Error(`Required \`${propName}\` was not specified in \`${componentName}\`.`);
+            return new Error(`Required \`${propName}\` was not specified in \`${componentName}\`.`);
         }
         return;
     }
 
     if (!fn(props[propName])) {
-        throw new Error(`Invalid \`${propName}\` was specified in \`${componentName}\`.`);
+        return new Error(`Invalid \`${propName}\` was specified in \`${componentName}\`.`);
     }
 };
 
