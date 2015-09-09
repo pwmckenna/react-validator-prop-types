@@ -3,7 +3,7 @@
 var validator = require('validator');
 
 var checkType = function (fn, isRequired, props, propName, componentName) {
-    if (!props.hasOwnProperty(propName)) {
+    if (props[propName] == null) {
         if (isRequired) {
             throw new Error(`Required \`${propName}\` was not specified in \`${componentName}\`.`);
         }

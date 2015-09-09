@@ -124,7 +124,8 @@ describe('propTypes', function () {
     });
     it('tests required propTypes', function () {
         React.renderToString(
-            <RequiredComponent />
+            // make sure to set a prop to null to ensure that null does not satisfy isRequired
+            <RequiredComponent email={null}/>
         );
         _.each(propTypes, function (value, key) {
             if (!_.contains(this.warnings, getRequiredPropTypeError(key, 'RequiredComponent'))) {
