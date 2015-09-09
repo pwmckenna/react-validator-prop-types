@@ -1,11 +1,7 @@
 'use strict';
 
-jest.dontMock('../ValidatorPropTypes.js');
-jest.dontMock('validator');
-jest.dontMock('lodash');
-
 var React = require('react');
-var PropTypes = require('../ValidatorPropTypes');
+var PropTypes = require('../src/ValidatorPropTypes');
 var _ = require('lodash');
 
 

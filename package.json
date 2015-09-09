@@ -2,9 +2,11 @@
   "name": "react-validator-prop-types",
   "version": "1.0.4",
   "description": "",
-  "main": "ValidatorPropTypes.js",
+  "main": "lib/ValidatorPropTypes",
   "scripts": {
-    "test": "NODE_ENV=development jest"
+    "test": "NODE_ENV=development jest",
+    "prepublish": "npm run compile",
+    "compile": "babel -d lib/ src/"
   },
   "repository": {
     "type": "git",
@@ -31,6 +33,7 @@
     ]
   },
   "devDependencies": {
+    "babel": "^5.8.23",
     "babel-jest": "^5.2.0",
     "jest-cli": "^0.4.5",
     "lodash": "^3.8.0",
