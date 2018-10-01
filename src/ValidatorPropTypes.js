@@ -37,7 +37,7 @@ var map = {
     int: 'isInt',
     float: 'isFloat',
     uuid: 'isUUID',
-    date: 'isDate',
+    date: 'isISO8601',
     creditCard: 'isCreditCard',
     json: 'isJSON',
     multibyte: 'isMultibyte',

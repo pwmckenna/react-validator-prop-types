@@ -1,6 +1,6 @@
 {
   "name": "react-validator-prop-types",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "",
   "main": "lib/ValidatorPropTypes",
   "scripts": {
@@ -32,6 +32,6 @@
     "react": "^0.13.3"
   },
   "dependencies": {
-    "validator": "^3.39.0"
+    "validator": "^10.8.0"
   }
 }
